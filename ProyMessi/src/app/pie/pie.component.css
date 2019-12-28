@@ -1,0 +1,15 @@
+#mainFooter {
+    background: #333333;
+    color: white;
+    padding: 20px;
+    margin-top: 40px;
+}
+
+#mainFooter p {
+    text-align: right;
+    color: tomato;
+}
+
+#mainFooter a {
+    color: white;
+}
