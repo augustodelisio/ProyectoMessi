@@ -18,8 +18,9 @@ h1 {
 }
 
 p {
-    margin: 1.5em 1em 1.5em 1em;
+    margin: 1.5em 1em 0em 1em;
     text-align: justify;
+    padding-bottom: 1.5em;
 }
 
 img {
@@ -28,4 +29,17 @@ img {
     padding-top: 1em;
     width: 100%;
     height: auto;
+}
+
+.slider {
+    width: 95%;
+    margin: auto;
+}
+
+.slider ul {
+    padding: 0;
+}
+
+.slider li {
+    list-style: none;
 }
