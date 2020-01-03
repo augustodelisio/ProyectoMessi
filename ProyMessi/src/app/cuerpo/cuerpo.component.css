@@ -35,6 +35,7 @@ img {
     width: 95%;
     margin: auto;
     overflow: hidden;
+    position: relative;
 }
 
 .slider ul {
@@ -54,15 +55,25 @@ img {
     width: 100%;
     top: 0;
     left: 0;
+    z-index: 1;
 }
 
 .slider input[type="radio"] {
     z-index: 50;
 }
 
+.slider input[type="radio"]:checked ~ img[alt=id] {
+    animation: cambio 20s infinite;
+}
+
 #rbtns{
-    display: flex;
-    justify-content: center;
+    /*display: flex;
+    justify-content: center;*/
+    position:absolute;
+    left: 50%;
+    top: 90%;
+    transform: translate(-50%, -90%);
+    -webkit-transform: translate(-50%, -90%);
 }
 
 
